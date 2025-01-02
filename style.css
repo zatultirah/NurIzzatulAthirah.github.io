@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('img/uitm_image.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e8daef;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.custom-header {
+    color: green;
+}
+.custom-card {
+    background-color: #abebc6;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+.custom-button {
+    background-color: #fef5e7;
+    color: white;
+    border-radius: 5px;
+}
+.custom-button:hover {
+    background-color: #fef5e7;
+}
+.custom-footer {
+    background-color: #d4e6f1;
+    color: #5dade2;
+}
+.profile-img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto; 
+    display: block; 
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 10px;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    width: 400px; /* Adjusts the width of the white box */
+    max-width: 90%; /* Ensures it remains responsive on smaller screens */
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    flex-shrink: 0;
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: auto;
+}
